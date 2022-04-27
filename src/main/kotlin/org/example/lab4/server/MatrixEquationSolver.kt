@@ -145,9 +145,8 @@ class MatrixEquationSolverImpl : MatrixEquationSolver {
         }
         return result
     }
-
-
 }
+
 
 interface MatrixEquationSolver : Remote {
     @Throws(RemoteException::class)
